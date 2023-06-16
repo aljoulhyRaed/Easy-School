@@ -1,0 +1,66 @@
+<resources>
+    <!-- Common -->
+    <string name="app_name">Easy School</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="password">كلمة المرور</string>
+    <string name="repeat_password">تأكيد كلمة المرور</string>
+    <string name="generic_error">هناك خطأ! حاول مرة آخرى</string>
+    <string name="verification_complete">تم التحقق بنجاح!</string>
+    <string name="verification_failed_try_again">فشل التحقق، حاول مرة أخرى!</string>
+    <string name="phone_auth_success">تم التسجيل بنجاح!</string>
+    <string name="invalid_code">رمز غير صحيح!</string>
+    <string name="quota_exceeded">تجاوزت المساحة المحددة!</string>
+    <string name="email_error">يجب أن تدخل بريد إلكتروني صحيح</string>
+    <string name="cancel">إلغاء</string>
+    <string name="try_again">حاول مرة آخرى</string>
+    <string name="ok">نعم</string>
+
+    <!-- LoginScreen -->
+    <string name="sign_in">سجل الدخول</string>
+    <string name="login_details">سجل الدخول</string>
+    <string name="forgot_password">هل نسيت كلمةالمرور؟ اضغط لتلقي بريد استعادة كلمةالمرور</string>
+    <string name="recovery_email_sent">تحقق من بريدك الوارد</string>
+    <string name="empty_password_error">يجب أن تدخل كلمة المرور</string>
+    <string name="empty_phoneNum_error">يجب أن تدخل رقم الهاتف</string>
+
+    <!-- SignUpScreen -->
+    <string name="create_account">Create account</string>
+    <string name="password_error">Your password should have at least six digits and include one digit, one lower case letter and one upper case letter.</string>
+    <string name="password_match_error">Passwords do not match.</string>
+
+    <!-- TasksScreen -->
+    <string name="tasks">المهام</string>
+
+    <!-- EditTaskScreen -->
+    <string name="edit_task">تعديل مهمة</string>
+    <string name="title">العنوان</string>
+    <string name="description">الوصف</string>
+    <string name="url">الرابط</string>
+    <string name="date">التاريخ</string>
+    <string name="time">الوقت</string>
+    <string name="flag">Flag</string>
+    <string name="priority">اﻷولوية</string>
+
+    <!-- SettingsScreen -->
+    <string name="settings">اﻷعدادات</string>
+    <string name="sign_out">تسجيل الخروج</string>
+    <string name="delete_my_account">Delete my account</string>
+
+    <!-- Dialogs -->
+    <string name="sign_out_title">سجل الخروج؟</string>
+    <string name="sign_out_description">يجب أن تسجل الدخول مرة آخرى، لترى المهام الخاصة بك</string>
+    <string name="delete_account_title">Delete account?</string>
+    <string name="delete_account_description">You will lose all your tasks and your account will be deleted. This action is irreversible.</string>
+
+    <!-- Role -->
+    <string name="teacher">معلم</string>
+    <string name="student">طالب</string>
+    <string name="manager">مدير</string>
+
+    <!-- FCM -->
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="request_notification_permission">Request permission</string>
+    <string name="notification_permission_title">Notification permission</string>
+    <string name="notification_permission_description">The notification permission is important for this app. Please grant the permission.</string>
+    <string name="notification_permission_settings">The notification permission is important for this app. Please navigate to your device settings and enable notifications for Make it So.</string>
+</resources>
