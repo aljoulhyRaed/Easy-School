@@ -1,6 +1,6 @@
 package com.techhunters.easyschool.core.ext
 
-import com.techhunters.easyschool.features.teacher.tasks.domain.Task
+import com.techhunters.easyschool.features.tasks.domain.model.Task
 
 fun Task?.hasDueDate(): Boolean {
     return this?.dueDate.orEmpty().isNotBlank()

@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "779212378767",
-    "project_id": "school-7012d",
-    "storage_bucket": "school-7012d.appspot.com"
+    "project_number": "89429181317",
+    "project_id": "easyschool-a3b13",
+    "storage_bucket": "easyschool-a3b13.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:779212378767:android:bc16254715ca957baa56fa",
+        "mobilesdk_app_id": "1:89429181317:android:97b096130a2d66be627aec",
         "android_client_info": {
           "package_name": "com.techhunters.easyschool"
         }
       },
       "oauth_client": [
         {
-          "client_id": "779212378767-ipdt996bd89elqbdro4l4vh59b8gu46t.apps.googleusercontent.com",
+          "client_id": "89429181317-5brf08oo0o9bt6rrmm5qag2ag2n869g2.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCopOrowyny9urXBicNF5r8D4ZvZpEj_UA"
+          "current_key": "AIzaSyAaFxosAOspPuBpuKbUkCy56G4tknlB9OU"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "779212378767-ipdt996bd89elqbdro4l4vh59b8gu46t.apps.googleusercontent.com",
+              "client_id": "89429181317-5brf08oo0o9bt6rrmm5qag2ag2n869g2.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

@@ -4,11 +4,16 @@ package com.techhunters.easyschool.core.ui.composable
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 import androidx.compose.foundation.Image
-import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.width
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -26,13 +31,48 @@ import androidx.compose.ui.unit.dp
 import com.techhunters.easyschool.core.ext.dropdownSelector
 
 
+@Composable
+fun LogoCard(modifier: Modifier, painter: Painter) {
 
+    Card(
+        colors = CardDefaults.cardColors(
+            containerColor = MaterialTheme.colorScheme.background
+        )
+    ) {
+        Image(
+            painter = painter, contentDescription = null,
+            modifier = modifier.fillMaxSize()
+        )
+    }
+
+}
 
 @Composable
-fun LogoCard(modifier: Modifier,painter: Painter){
-
-    Card(modifier.background(Color.Transparent)) {
-        Image(painter = painter, contentDescription = null)
+fun ListCard(no: String, title: String, open: () -> Unit) {
+    Card(
+        colors = CardDefaults.cardColors(
+            containerColor = MaterialTheme.colorScheme.surface
+        ),
+        modifier = Modifier
+            .height(60.dp)
+            .padding(vertical = 5.dp)
+            .clickable { open() }
+        ,
+    ) {
+        Column(
+            horizontalAlignment = Alignment.CenterHorizontally,
+            verticalArrangement = Arrangement.Center,
+            modifier = Modifier.fillMaxSize()) {
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.Center,
+                modifier = Modifier.fillMaxWidth(),
+            ) {
+                Text(text = no, style = MaterialTheme.typography.labelLarge)
+                Spacer(modifier = Modifier.width(5.dp))
+                Text(text = title, style = MaterialTheme.typography.labelLarge)
+            }
+        }
     }
 
 }

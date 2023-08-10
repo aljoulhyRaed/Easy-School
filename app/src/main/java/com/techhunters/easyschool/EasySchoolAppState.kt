@@ -1,6 +1,7 @@
 package com.techhunters.easyschool
 
 import android.content.res.Resources
+import androidx.compose.material3.DrawerState
 import androidx.compose.material3.SnackbarHostState
 import androidx.compose.runtime.Stable
 import androidx.navigation.NavHostController
@@ -13,6 +14,7 @@ import kotlinx.coroutines.launch
 @Stable
 class EasySchoolAppState(
     val snackBarHostState: SnackbarHostState,
+    val drawerState: DrawerState,
     val navController: NavHostController,
     // val navigator: DestinationsNavigator,
     private val snackBarManager: SnackBarManager,
@@ -27,6 +29,7 @@ class EasySchoolAppState(
             }
         }
     }
+
 
     fun popUp() {
         navController.popBackStack()

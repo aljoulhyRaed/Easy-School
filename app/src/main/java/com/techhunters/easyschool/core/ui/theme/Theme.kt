@@ -69,8 +69,8 @@ private val LightColorScheme = lightColorScheme(
     onSurface = black0,
     inverseSurface = black0,
     inverseOnSurface = black93,
-    /* surfaceVariant = GreenGrey90,
-     onSurfaceVariant = GreenGrey30,*/
+    /* surfaceVariant = GreenGrey90,*/
+     onSurfaceVariant = BlueGrey90,
     outline = black62
 
     /* Other default colors to override
